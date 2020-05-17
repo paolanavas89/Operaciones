@@ -8,10 +8,12 @@ public class Main {
 	
 	public static void main(String[] args) {
 		Suma suma = new Suma();
+		Potencia potencia= new Potencia();
 		Scanner teclado = new Scanner(System.in);
 
 		for (int i = 0; i < NUM_REPETICIONES; i++) {
 			suma.obtenerValores(teclado);
+			potencia.obtenerValores2(teclado);
 		}
         teclado.close();
 	}	
