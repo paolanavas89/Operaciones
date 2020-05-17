@@ -15,6 +15,7 @@ public class Main {
 			suma.obtenerValores(teclado);
 			potencia.obtenerValores2(teclado);
 		}
+		Dibujante.dibujitoEnAscii1();
         teclado.close();
 	}	
 }
